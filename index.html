@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Gonsaku</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="gonsakuのwebサイトです。">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="contents">
+
+<header>
+
+<!--ロゴ-->
+<h1 id="logo">
+<a href="index.html">
+<img src="logo.png" alt="gonsaku" class="pc-logo"><!--大きな端末用ロゴ-->
+</a>
+</h1>
+<!--文字サイズ変更ボタン-->
+<div id="f-size">
+<p>文字サイズ</p>
+<ul>
+<li id="f-small"></li>
+<li id="f-large"></li>
+</ul>
+</div>
+</header>
+
+<!--開閉ブロック-->
+<div id="menubar">
+
+<nav>
+<ul>
+<li><a href="index.html">ホーム</a></li>
+<li><a href="https://www.youtube.com/channel/UCd9EvhcYjga8v8WLLYB13Hg">Youtube</a></li>
+<li><a href="https://scratch.mit.edu/users/gonsaku/">scratch</a></li>
+<li><a href="">おすすめ</a>
+	<ul>
+	<li><a href="https://scratch.mit.edu/projects/658953152">死んだら即終了！ハスク100体vsスカルクザコセキュリティハウス</a></li>
+	<li><a href="https://scratch.mit.edu/projects/739808145">死んだら即終了！ウォーデンvsレーザーセキュリティハウス</a></li>
+	<li><a href="https://scratch.mit.edu/projects/1045265138">死んだら即終了！最強のモンスター軍団vsたぶん最強のセキュリティハウス</a></li>
+	</ul>
+</li>
+</ul>
+</nav>
+
+</div>
+<!--/#menubar-->
+
+<!--スライドショー（slick）-->
+<aside class="mainimg">
+<div><img src="1.png" alt=""></div>
+<div><img src="2.png" alt=""></div>
+<div><img src="3.png" alt=""></div>
+</aside>
+<main>
+
+<section>
+
+<h2>お知らせ</h2>
+
+<h3>Gonsakuのウェブサイトを作りました！</h3>
+<p>前にも何個か作っていましたが、新しいのに変更しました！</p>
+<p>以前までのもまだアクセスできます！</p>
+<p>また変えたりするかもしれませんが、その時はこのサイトで告知します！</p>
+
+</section>
+
+<section>
+
+<dl class="new">
+<dt>2024/07/25<span>お知らせ</span></dt>
+<dd>Gonsakuのウェブサイトを作りました!</dd>
+
+</dl>
+
+<p class="r"><a href="more.html" class="btn1">もっと見る<i class="fas fa-arrow-circle-right"></i></a></p>
+
+</section>>
+<footer>
+<small>Copyright&copy; <a href="index.html">Gonsaku</a> All Rights Reserved.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+</div>
+<!--/#container-->
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--文字サイズチェンジ用のスクリプト-->
+<script src="fontSizeChanger.js"></script>
+<!--このテンプレート専用のスクリプト-->
+<script src="main.js"></script>
+<!--スライドショー（slick）-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="slick.js"></script>
+</body>
+</html>
